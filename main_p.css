@@ -7,7 +7,7 @@ html, body {
 .razdels ul {list-style-type: none;}
 .razdels ul li{display: inline; padding: 0 50px; font-size: 25px;}
 .razdels ul li img{text-shadow: 0 0 10px black;}
-.razdels {position: fixed; background: rgba(0,0,0,0.7); width: 1480px; height: 90px;}
+.razdels {position: fixed; background: rgba(0,0,0,0.7); width: 100%; height: 90px;}
 .razdels ul li a{font-style: none; color: white;}
 
 .who_am_i {
@@ -22,10 +22,12 @@ html, body {
     
 }
 
+.why, .how_comm_me {float: center;}
+
 #type0 {
     padding: 20px 50px 20px 50px;
     width: 1249px; height: 350px;
-    font-size: 180%; float: center;
+    font-size: 180%; 
 }
 #type1 {
     padding: 20px 10px 10px 50px;
